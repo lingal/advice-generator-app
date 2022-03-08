@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/lingal/advice-generator-app.git)
-- Live Site URL: [](https://flamboyant-boyd-c6ee17.netlify.app/)
+- Solution URL: [GitHub](https://github.com/lingal/advice-generator-app.git)
+- Live Site URL: [Netlify](https://flamboyant-boyd-c6ee17.netlify.app/)
 
 ## My process
 
