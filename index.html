@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Advice generator app</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  </head>
+  <body>
+    <main class="main">
+      <div class="card">
+        <h1 class="advice-id">Advice #<span id="advice-id"></span></h1>
+
+        <div class="advice">
+          <blockquote class="advice-text" id="advice-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quod
+            nam, laudantium nostrum alias ab a explicabo! Aperiam nobis cum
+            obcaecati!
+          </blockquote>
+        </div>
+        <div class="divider">
+          <!-- mobile svg -->
+          <img
+            src="./images/pattern-divider-mobile.svg"
+            alt=""
+            class="mobile-svg"
+          />
+           <!-- for desktop svg -->
+          <img
+            src="/images/pattern-divider-desktop.svg"
+            alt=""
+            class="desktop-svg"
+          />
+        </div>
+        <button class="btn" id="btn">
+          <img src="./images/icon-dice.svg" alt="dice" />
+        </button>
+      </div>
+    </main>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+:root {
+  --fontClr: #cee3e9;
+  --headerClr: #52ffa8;
+  --bgCard: #323a49;
+  --accentClr: #4e5d73;
+  --bodyClr: #1f2632;
+  --ff-main: 'Manrope', sans-serif;
+  --fw-800: 800;
+}
+
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: auto;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: var(--ff-main);
+  background-color: var(--bodyClr);
+  color: var(--fontClr);
+  margin: 0;
+  padding: 0;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+.main {
+  min-height: 100%;
+  margin-inline: 0.5rem;
+  display: grid;
+  place-content: center;
+}
+.card {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  background-color: var(--bgCard);
+  text-align: center;
+  border-radius: 15px;
+  position: relative;
+  max-width: 30rem;
+}
+.advice-id {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: var(--headerClr);
+  margin-top: 1rem;
+}
+.advice {
+  min-height: 6rem;
+  display: grid;
+  align-content: center;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+.advice-text {
+  font-size: 1.75rem;
+  font-weight: var(--fw-800);
+}
+.divider img{
+  margin: 0 auto;
+}
+.divider .desktop-svg {
+  display: none;
+}
+
+.btn {
+  background-color: var(--headerClr);
+  border: none;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  cursor: pointer;
+}
+
+.disabled {
+  background-color: hsla(193, 38%, 86%, 1);
+}
+@media screen and (min-width: 31em) {
+  .divider .desktop-svg{
+    display: block;
+    max-width: 85%;
+  }
+  .divider .mobile-svg {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 37em) {
+  .card {
+    padding-inline: 2rem;
+  }
+  .btn:hover {
+    box-shadow: 0 0 30px hsl(150, 100%, 66%);
+    -webkit-box-shadow: 0 0 30px hsl(150, 100%, 66%);
+    -moz-box-shadow: 0 0 30px hsl(150, 100%, 66%);
+  }
+}
