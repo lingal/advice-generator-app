@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://github.com/lingal/advice-generator-app.git)
+- Live Site URL: [](https://flamboyant-boyd-c6ee17.netlify.app/)
 
 ## My process
 
@@ -30,4 +30,4 @@ Users should be able to:
 - CSS custom properties
 - CSS Grid
 - Mobile-first workflow
-- Javascript
+- JavaScript
